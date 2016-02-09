@@ -1,6 +1,8 @@
 # Creating a widget
 
-What follows are the basic requirements for creating your own widget using the SiteOrigin Widgets Bundle as a framework.
+In the World Of Wordpress, a Widget is essentially a specific type of plugin. You have to create a plugin that will host all your custom widgets. Its logical place is therefore in the `plugins` folder (and not your `themes` folder). 
+
+What follows are the basic requirements for creating your own widget using the SiteOrigin Widgets Bundle as a framework. Create your plugin accordingly, or, to get up to speed rapidly, create a new plugin in your wp-content/plugins folder using a copy of [this example code](https://github.com/siteorigin/so-dev-examples/tree/develop/extend-widgets-bundle). Activate the plugin via the wp-admin interface. Do read the following to understand how it works and how to adapt it to do what you need.
 
 ## Registering a custom widgets folder
 
