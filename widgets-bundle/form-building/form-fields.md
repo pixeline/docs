@@ -64,6 +64,9 @@ Result:
 
 ![Widget Form Link Input](../images/form-field-type-link.png)
 
+#### Rendering the value as a Url
+The input will either receive a value of "post: XXXX" (where XXXX is the post/page ID) or a fully qualified url if the link is external. Either way, you can use `sow_esc_url($instance['some_url'])` in your widget template to render the link value.
+
 ---
 
 ### color
